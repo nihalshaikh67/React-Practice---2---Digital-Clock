@@ -6,7 +6,7 @@ class App extends Component {
     constructor(){
         super();
         this.state ={
-            curTime  :new Date().toLocaleDateString()
+            curTime  :new Date().toLocaleTimeString()
         }
     }
             componentDidMount() {
